@@ -20,7 +20,7 @@ function Header() {
                <li className={styles.header_container_list_item}><Link to="/sobrenos">Sobre nós</Link></li>
                <li className={styles.header_container_list_item}><Link to="/escala">Escala</Link></li>
                <li className={styles.header_container_list_item}><Link to="/contribuicoes">Contribuições</Link></li>
-               <li className={styles.header_container_list_item}><Link to="/faleconosco">FaleConosco</Link></li>
+               <li className={styles.header_container_list_item}><Link to="/faleconosco">Fale Conosco</Link></li>
             </ul>
          </div>
       </nav>
