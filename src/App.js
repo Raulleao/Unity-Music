@@ -8,6 +8,7 @@ import SobreNos from './components/pages/SobreNos';
 // 
 // import Container from './components/layout/Container';
 import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 
 
 function App() {
@@ -16,15 +17,15 @@ function App() {
       <Header />
 
       {/* <Container> */}
-        <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='/sobrenos' element={<SobreNos />}></Route>
-          <Route path='/escala' element={<Escala />}></Route>
-          <Route path='/contribuicoes' element={<Contribuicoes />}></Route>
-          <Route path='/faleconosco' element={<FaleConosco />}></Route>
-        </Routes>
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/sobrenos' element={<SobreNos />}></Route>
+        <Route path='/escala' element={<Escala />}></Route>
+        <Route path='/contribuicoes' element={<Contribuicoes />}></Route>
+        <Route path='/faleconosco' element={<FaleConosco />}></Route>
+      </Routes>
       {/* </Container> */}
-
+      <Footer />
     </Router>
   );
 }
