@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/alt-text */
-import facebook from "../../img/VectorFacebook.svg"
 import instagram from "../../img/VectorInstagram.svg"
 import localizacao from "../../img/VectorLocalizacao.svg"
 
